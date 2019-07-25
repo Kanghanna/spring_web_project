@@ -5,11 +5,12 @@ import java.util.List;
 import javax.inject.Inject;
 
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
 import com.example.project.model.dao.MemberDAOImpl;
 import com.example.project.model.dto.MemberVO;
 
-@Repository
+@Service
 public class MemberServiceImpl implements MemberService { //DAO단 하고만 통신함
 
 	@Inject //삽입
